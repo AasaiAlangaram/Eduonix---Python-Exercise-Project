@@ -1,4 +1,4 @@
-
+#Import Random 
 import random
 
 print("***Game of Guess***")
@@ -16,9 +16,11 @@ if question == 'y' or question == 'Y':
         print("I am going to think a number between 1-25")
         number = random.randint(1,26) 
         guess = int(input("Guess a number between 1-25 : "))
-        
+       
+        #This loop runs until guess mathches with Actual number
         while guess != number:
             
+            #Inform User about his/her Guess number selection, to select precisely
             if guess > number:
                 print("your selction is high")
             
@@ -26,7 +28,8 @@ if question == 'y' or question == 'Y':
                 print("you selection is low")
             
             guess = int(input("Wrong, try again: "))
-             
+            
+            #Tries incremented if guessed number was a wrong one
             tries += 1
             
         if number == guess:
