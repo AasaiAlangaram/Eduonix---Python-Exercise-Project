@@ -9,6 +9,6 @@
 -When user guess right, tell them how many guess it took.
 
 ### Solution
--Check out source file
+-[Check out source file](https://github.com/AasaiAlangaram/Eduonix---Python-Exercise-Project/blob/master/Project%20-%20Game%20of%20Guess.py)
 
 ### Happy coding!
